@@ -1,0 +1,14 @@
+@mixin breakpoint($size) {
+  @media only screen and (min-width: $size) {
+    @content
+  }
+}
+@mixin sarabun {
+  font-family: 'Sarabun', sans-serif;
+}
+@mixin source {
+  font-family: 'Source sanse pro', sans-serif;
+}
+@mixin indie {
+  font-family: 'Indie Flower', cursive;
+}
